@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRESCITA — Faith In Every Thread | Drop 001</title>
+  <meta name="description" content="CRESCITA — Luxury premium streetwear from Johannesburg. Drop 001: 100 pieces, cut & sewn in SA.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Fonts: Orbitron (logo/headline) + Montserrat (body, previously never loaded) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CRESCITA" />
+  <meta property="og:title" content="CRESCITA — Faith In Every Thread | Drop 001" />
+  <meta property="og:description" content="CRESCITA — Luxury premium streetwear from Johannesburg. Drop 001: 100 pieces, cut & sewn in SA." />
+  <meta property="og:url" content="https://crescitaofficial.com/" />
+  <meta property="og:image" content="https://crescitaofficial.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="CRESCITA - Faith In Every Thread" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CRESCITA — Faith In Every Thread | Drop 001" />
+  <meta name="twitter:description" content="CRESCITA — Luxury premium streetwear from Johannesburg. Drop 001: 100 pieces, cut & sewn in SA." />
+  <meta name="twitter:image" content="https://crescitaofficial.com/og-image.png" />
+  <link rel="canonical" href="https://crescitaofficial.com/" />
+
+  <style>
+    :root{--bg:#fff;--fg:#000;--muted:#6b6b6b;--line:#e5e5e5}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;background:var(--bg);color:var(--fg);font-family:"Montserrat",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;-webkit-text-size-adjust:100%}
+    a{color:inherit;text-decoration:none}
+
+    /* Nav */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:22px 32px;background:rgba(255,255,255,.85);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .logo{font-weight:700;letter-spacing:.14em;font-size:20px;text-transform:uppercase}
+    .nav-cta{font-size:11px;text-transform:uppercase;letter-spacing:.2em;font-weight:500;border:1px solid #000;padding:10px 16px;border-radius:999px;transition:.2s}
+    .nav-cta:hover,.nav-cta:focus-visible{background:#000;color:#fff}
+
+    /* Hero */
+    .hero{position:relative;height:100vh;height:100svh;width:100%;overflow:hidden;background:#fff}
+    .hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .hero::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(to top,rgba(255,255,255,.92) 0%,rgba(255,255,255,.75) 35%,rgba(255,255,255,.45) 70%,rgba(255,255,255,.25) 100%)}
+    .hero-content{position:relative;z-index:2;height:100%;display:grid;place-items:center;text-align:center;padding:0 24px}
+    .eyebrow{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;font-weight:500}
+    h1{font-weight:700;font-size:clamp(30px,8.5vw,128px);line-height:.9;text-transform:uppercase;font-family:'Orbitron',sans-serif;letter-spacing:.14em;margin-right:-.14em}
+    .tagline{margin-top:18px;font-size:clamp(14px,1.5vw,17px);color:#1a1a1a}
+    .logo{font-family:'Orbitron',sans-serif}
+
+    .hero-content .enter{
+      display:inline-block;
+      margin-top:28px;
+      border:1px solid #111;
+      background:#fff;
+      color:#111;
+      padding:14px 32px;
+      font-size:11px;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      font-weight:700;
+      transition:.2s;
+    }
+    .hero-content .enter:hover,.hero-content .enter:focus-visible{background:#111;color:#fff}
+
+    @media(max-width:800px){.nav{padding:16px 18px}.logo{font-size:17px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">CRESCITA</div>
+    <a class="nav-cta" href="./site/index.html">Enter</a>
+  </header>
+  <main>
+    <section class="hero">
+      <video autoplay muted loop playsinline webkit-playsinline preload="auto" poster="poster.jpg">
+        <source src="./hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-content">
+        <div>
+          <div class="eyebrow">Est. 2026 — Johannesburg / Worldwide</div>
+          <h1>CRESCITA</h1>
+          <p class="tagline">Faith In Every Thread</p>
+          <a class="enter" href="./site/index.html">Enter Site</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
